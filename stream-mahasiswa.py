@@ -5,7 +5,7 @@ import streamlit as st
 mahasiswa_model = pickle.load(open('mahasiswa_modelKNN2.sav', 'rb'))
 
 #Nama Web
-st.title('Prediksi Kelulusan Mahasiswa STT Wastukancana')
+st.title('Prediksi Kelulusan Mahasiswa')
 
 
 col1, col2 = st.columns(2)
