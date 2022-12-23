@@ -28,7 +28,7 @@ ket_Kelulusan = ''
 if st.button('Test Prediksi Kelulusan') :
     ket_prediction = mahasiswa_model.predict([[ IPS1, IPS2, IPS3, IPS4, IPS5, IPS6 , IPS7 , IPS8]])
 
-    if(ket_prediction[0]==1):
+    if(ket_prediction==1):
         ket_Kelulusan = 'Mahasiswa Lulus'
     else : 
         ket_Kelulusan = 'Mahasiswa tidak lulus'
