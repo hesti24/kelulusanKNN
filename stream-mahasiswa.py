@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 #membaca model
 
-mahasiswa_model = pickle.load(open('mahasiswa_modelKNN.sav', 'rb'))
+mahasiswa_model = pickle.load(open('mahasiswa_modelKNN2.sav', 'rb'))
 
 #Nama Web
 st.title('Prediksi Kelulusan Mahasiswa STT Wastukancana')
